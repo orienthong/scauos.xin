@@ -3,6 +3,5 @@
 #export("title") { Hello, #(name)! }
 
 #export("content") {
-	<h1>Hello, #(name)!</h1>
+	<h1>废话, #(name)!</h1>
 }
-

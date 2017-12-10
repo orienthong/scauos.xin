@@ -12,7 +12,7 @@ final class HelloController: ResourceRepresentable {
     /// GET /hello
     func index(_ req: Request) throws -> ResponseRepresentable {
         return try view.make("hello", [
-            "name": "大朕东"
+            "name": "大朕东是真的牛逼"
         ], for: req)
     }
 
